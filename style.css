@@ -1,0 +1,80 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f8f9fa; 
+}
+
+
+.navbar {
+    background-color: #e07f7f; 
+}
+
+
+#title {
+    font-size: 70px;
+    color: #343a40; 
+}
+
+
+.row {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#card1, #card2, #card3 {
+    background-color: #e07f7f; 
+    width: 90%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#card1:hover, #card2:hover, #card3:hover {
+    background-color: #ffc977; 
+    transform: scale(1.05);
+}
+
+
+.card-img-top {
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto; 
+}
+
+
+#viewApp_button {
+    width: 70%;
+    margin: 20px;
+}
+
+
+.offcanvas-header {
+    background-color: #e07f7f; 
+    color: #343a40; 
+}
+
+
+.form-control {
+    margin-right: 5px;
+}
+
+
+.btn-outline-success {
+    background-color: #e07f7f; 
+    color: #343a40; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e07f7f;
+    color: #343a40; 
+}
